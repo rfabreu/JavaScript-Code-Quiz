@@ -14,7 +14,7 @@
 <body class="bg-white">
     <div class="row p-1 mx-1">
         <div class="col-sm-6 text-left d-flex justify-content-start">
-            <h4 id="highscores"><a href="./assets/html/highscores.html" class="" style="text-decoration: none;">View
+            <h4 id="highscores"><a href="./assets/html/highscores.html" style="text-decoration: none;">View
                     Highscores</a></h4>
         </div>
         <div class="col-sm-6 text-right d-flex justify-content-end float-right">
@@ -30,7 +30,7 @@
                     <h1>JavaScript - Coding Quiz</h1>
                     <h4 id="qTitle" class="text-justify p-3 m-3">
                         Answer the following JavaScript practice questions within the given time. <br /> Incorrect
-                        answers will be penalized with a 15 seconds deduction from the remaining time limt.
+                        answers will be penalized with a 15 seconds deduction from the remaining time limit.
                     </h4>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <section id="takeQuiz" class="d-done">
+        <section id="takeQuiz" class="d-none">
             <div class="row p-1">
                 <div class="col m-3">
                     <h2 id="Question"></h2>
@@ -49,22 +49,22 @@
             </div>
             <div class="row p-1">
                 <div class="col-6">
-                    <button type="button" class="btn btn-primary btn-clock text-left" id="btnA1"></button>
+                    <button type="button" class="btn btn-primary btn-block text-left" id="btnA1"></button>
                 </div>
             </div>
             <div class="row p-1">
                 <div class="col-6">
-                    <button type="button" class="btn btn-primary btn-clock text-left" id="btnA2"></button>
+                    <button type="button" class="btn btn-primary btn-block text-left" id="btnA2"></button>
                 </div>
             </div>
             <div class="row p-1">
                 <div class="col-6">
-                    <button type="button" class="btn btn-primary btn-clock text-left" id="btnA3"></button>
+                    <button type="button" class="btn btn-primary btn-block text-left" id="btnA3"></button>
                 </div>
             </div>
             <div class="row p-1">
                 <div class="col-6">
-                    <button type="button" class="btn btn-primary btn-clock text-left" id="btnA4"></button>
+                    <button type="button" class="btn btn-primary btn-block text-left" id="btnA4"></button>
                 </div>
             </div>
             <div class="row p-1">
@@ -74,7 +74,7 @@
             </div>
         </section>
 
-        <section id="finalScore" class="d-done">
+        <section id="finalScore" class="d-none">
             <div class="row p-1">
                 <div class="col-12 text-left">
                     <h2 id="msgQuizDone"></h2>
@@ -83,7 +83,7 @@
             </div>
             <div class="row text-left">
                 <div class="col-12 text-left">
-                    <label for="YourInitials">Enter initials:</label>
+                    <label for="YourInitials">Enter your initials:</label>
                     <input type="text" name="YourInitials" id="xInitials">
                     <button type="submit" class="btn btn-primary btn-sm" id="submitBtn">Submit</button>
                 </div>
@@ -93,7 +93,6 @@
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>$(function () { alert('hello') });</script>
     <!-- Popper JS -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Bootstrap JS -->
@@ -102,6 +101,7 @@
         crossorigin="anonymous"></script>
     <!-- Quiz Logic script -->
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/questions.js"></script>
 
 </body>
 

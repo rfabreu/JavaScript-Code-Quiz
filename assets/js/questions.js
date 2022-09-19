@@ -36,7 +36,7 @@ const questions = [
     },
     {
         title: "Integer: Whole Number (-1,450) Float: Decimal Point (0.1, 12.454)",
-        choices: ["What happens if you call the 'document.write' function after the document has fully loaded?", "What are the two types of Numbers within Datatypes?", "What are the two ways to add JS to your site?", "What type of language is JavaScript?"],
+        choices: ["What happens if you call the 'document.write' function after the document has fully loaded?", "What are the two types of Numbers within Datatypes?", "What are the two ways to add JavaScript to your site?", "What type of language is JavaScript?"],
         answer: "What are the two types of Numbers within Datatypes?"
     },
     {
